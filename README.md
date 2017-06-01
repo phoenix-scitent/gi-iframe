@@ -2,7 +2,11 @@
 
 Set this up locally to test the `governance-staging` (or what-have-you) locally.
 
-Install this alongside a directory called `governance-content` (ideally, the repo of that name).  Then run:
+Install this alongside a directory called `governance-content` (ideally, the repo of that name).
+
+Then create a `private.js` file that is similar to `private-example.js` at the same dir level.
+
+Then run:
 ```
 node index.js
 ```
