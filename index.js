@@ -39,7 +39,7 @@ function valMid(str) {
 	return parseInt(str.match(re2)[1],10);
 }
 function content(list,prefix) {
-	var html = '<!DOCTYPE html><html><head><style>ul{list-style:none;height:80px;overflow:scroll;position:-webkit-sticky;position:sticky;top:0;}iframe{position:fixed;width:100%;height:600px;top:100px;}</style></head><body><ul>';
+	var html = '<!DOCTYPE html><html><head><style>ul{list-style:none;height:80px;overflow:scroll;position:-webkit-sticky;position:sticky;top:0;}iframe{position:fixed;width:100%;height:600px;top:100px;}h1{position:absolute;left:40%;font-family:sans-serif;}</style></head><body><h1>Governance Staging</h1><ul>';
 	for (var i = 0; i < list.length; i++) {
 		html += '<li><a href="'+prefix+list[i]+'" target="f">'+list[i]+'</a></li>';
 	}
